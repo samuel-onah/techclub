@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+nav {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    margin: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+}
+
+.active {
+    border-bottom: 3px solid #514b9c;
+    padding: 10px;
+}
+
+.sign1 {
+    border: 1px solid #7971ea;
+    padding: 14px 15px;
+    border-radius: 30px;
+    margin-left: 100px;
+    background-color: #7971ea;
+}
+
+.btn1 a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: serif;
+    color: white;
+    text-decoration: none;
+}
+
+.btn1 a:hover {
+    background-color: #514b9c;
+}
+
+main {
+    background: url(../assets/img/iStock-woman_working_on_her_laptop.width-800.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.over-lay {
+    background-color: #343a40e9;
+    height: 100vh;
+    color: white;
+
+}
+
+.hero-section {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.sign {
+    border: 1px solid #7971ea;
+    padding: 15px 40px;
+    background-color: #7971ea;
+    border-radius: 30px;
+}
+
+.hero {
+    padding-top: 270px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 750;
+}
+
+.hero p {
+    margin-top: 30px;
+    align-items: center imp;
+}
+
+.btn2 {
+    margin-top: 40px;
+}
+
+.btn2 a:hover {
+    background-color: #514b9c;
+}
+
+.btn2 a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+section {
+    background-color: #7971ea;
+    height: 70vh;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.container h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding-top: 100px;
+    /* margin-bottom: 30px; */
+}
+
+.contain {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.container-item {
+    margin: 15px;
+    margin-top: -130px;
+    height: 55vh;
+    box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+
+}
+
+.container-b {
+    margin-left: 20px;
+    display: block;
+}
+
+.container-b h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.745);
+}
+
+.container-b p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+.flex1 {
+    display: flex;
+}
+
+.container-item1 {
+    margin: 15px;
+    height: 55vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.188);
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+
+
+.price-tag {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+span {
+    text-decoration: line-through;
+    margin-right: 20px;
+}
+
+.other-content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.center-content {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.center-content h1 {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.span {
+    margin-top: 10px;   
+    color: rgba(255, 255, 255, 0.582);
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.box h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.box p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.618);
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.img {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+.item {
+    width:35%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.188) ;
+    text-align: center;
+    margin: 20px;
+    height: 40vh;
+    border: 1px solid rgba(0, 0, 0, 0.407);
+}
+
+.item h2 {
+    margin-top: 20px;
+}
+
+.item h4 {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.47);
+    margin-top: 20px;
+}
+
+.item p {
+    color: rgba(0, 0, 0, 0.738);
+    /* margin-top: 20px; */
+}
+
+.p-tags {
+    margin-top: 20px;
+}
+
+.flex-items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.over {
+    background-image: url(../assets/img/iStock-woman_working_on_her_laptop.width-800.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.over-div {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.666);
+    background-color: rgba(0, 0, 0, 0.863);
+    height: 500px;
+}
+
+
+.over-div h3 {
+    margin-top: 20px;
+}
+
+.imgs {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.part {
+    background-color: whitesmoke;
+}
+
+footer {
+margin: 0 auto;
+width: 50%;
+background-color: whitesmoke;
+padding-bottom: 80px;
+}
+
+.footer-div h1 {
+font-size: 40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 800;
+padding-top: 30px;
+}
+
+.foot {
+    margin-top: 10px;
+}
+
+.firstname {
+    width: 49%;
+    margin-top: 20px;
+    border:1px solid rgba(0, 0, 0, 0.418);
+    
+}
+
+.input1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input2 {
+    display: flex;
+    flex-direction: column;
+} 
+
+form {
+    width: 100%;
+}
+
+input {
+    height: 35px;
+    box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.09);
+    border: 1px solid white;
+    border:1px solid rgba(0, 0, 0, 0.418);
+}
+
+textarea {
+    width: 100%;
+    box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.09);
+    border: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+.submit  {
+    padding: 20px 10px;
+    border: 1px solid #7971ea;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #7971ea;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.submit:hover{
+    background-color: #514b9c;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+
+.flex3 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.flex3 input {
+    width: 100%;
+}
+
+.flex3 a {
+    text-decoration: none;
+    border: 1px solid #7971ea;
+    padding: 10px;
+    background-color: #7971ea;
+    color: white;
+    text-transform: uppercase;
+}
+
+.last-part {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.path-items h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+.path {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.59);
+}
+
+.center {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
